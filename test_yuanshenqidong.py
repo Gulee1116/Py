@@ -45,6 +45,7 @@ class Ui_Form(object):
 
     def __init__(self):
         self.setupUi(MainWindow)
+        self.setAcceptDrops(True)
 
 
 if __name__ == "__main__":
